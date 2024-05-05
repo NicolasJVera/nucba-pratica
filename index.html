@@ -7,28 +7,27 @@
     <title>Nicolas Vera - Portafolio</title>
 </head>
 
-<body>
-    <header>
+<body class="container">
+    <header class="header">
         <h1>Mi Perfil</h1>
     </header>
 
-    <main>
-        <div>
-            <img src="./img/foto-perfil.jpg" width="10%" height="10%" alt="Foto de curriculum">
+    <main class="main"> 
+        <div class="">
+            <img src="./img/foto-perfil.jpg" width="30%" alt="Foto de curriculum">
         </div>
-        <div>
-            <ul>
-                <li>Nombre y Apellido: Nicolas Vera</li>
-                <li>Edad:21 años</li>
-                <li>Email:nucba@gmail.com</li>
-                <li>Telefono:123456789</li>
-                <li>
+        <div class="presentacion">
+            <p class="nombre">Nombre y Apellido: <span>Nicolas Vera</span></p>
+                <p class="edad">Edad: <span>21 años</span></p>
+                <p class="mail">Email: <span>nucba@gmail.com</span></p>
+                <p class="telefono">Telefono: <span>123456789</span></p>
+                <p class="linkedin">
                     Linkedin:
                     <a href="https://www.linkedin.com/in/nicolas-vera-javier/" target="_blank">Linkedin</a>
-                </li>
-                <li>
-                    <article>
-                        <p>Carta de presentacion:</p>
+                </p>
+                <p>
+                    <article class="articulo">
+                        <p class="carta">Carta de presentacion:</p>
                         <p>Hola! Me llamo Nicolás, tengo 21 años y estoy buscando mi primer trabajo como Full Stack Jr.
                             Actualmente promocione la segunda parte #YoProgramo de el Bootcamp de Argentina Programa y me
                             convertí en un Full Stack Developer.
@@ -36,58 +35,46 @@
                             no tener solución y superarme día a día. Creo en la buena comunicación, el respeto y el trabajo
                             en equipo como los valores principales de la empresa con la que quiero trabajar. </p>
                     </article>
-                </li>
-            </ul>
+                </p>
         </div>
 
         <section>
-            <div>
+            <div class="titulo-form">
                 <h2>Contacto</h2>
             </div>
-            <div>
+            <div class="container-form">
                 <form>
-                    <div>
+                    <div class="item-form">
                         <label for="name">Nombre:</label>
                         <input type="text" id="name" placeholder="Nicolas">
                     </div>
 
-                    
-
-                    <div>
+                    <div class="item-form">
                         <label for="Apellido">Apellido:</label>
                         <input type="text" id="Apellido" placeholder="Vera">
                     </div>
 
-                    
-
-                    <div>
+                    <div class="item-form">
                         <label for="edad">Edad:</label>
                         <input type="number" id="edad" min="1" max="99">
                     </div>
 
-                    
-
-                    <div>
+                    <div class="item-form">
                         <label for="email">Email:</label>
                         <input type="email" placeholder="email@gmail.com" id="email">
                     </div>
 
-                    
-
-                    <div>
+                    <div class="item-form">
                         <label for="phone">Telefono:</label>
                         <input type="tel" id="phone" placeholder="1154234544">
                     </div>
 
-                    
-
-                    <div>
+                    <div class="item-form">
                         <label for="comentarios">Comentarios:</label>
                         <input type="text" id="comentarios" placeholder="Datos relevantes">
                     </div>
 
-                    
-                    <input type="submit" value="Enviar">
+                    <input class="boton-bg" type="submit" value="Enviar">
                 </form>
             </div>
                 
@@ -95,7 +82,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>
             Creado por NV con mucho cariño
         </p>
